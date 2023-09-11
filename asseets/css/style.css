@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+}
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+.header {
+  background-color: gray;
+  height: 150px;
+  padding-top: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.header .h-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .h-content img {
+  width: 100px;
+}
+.header .h-content h1 {
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+  margin-left: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 200px auto;
+  column-gap: 20px;
+}
+.body .aside {
+}
+.body aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.body aside ul li {
+  padding: 10px;
+  border-bottom: #605a5a solid 1px;
+}
+.body aside ul li a {
+  display: block;
+  text-decoration: none;
+  color: #786d6d;
+}
+.body aside p {
+  font-size: 12px;
+  text-align: justify;
+  width: 180px;
+  margin-left: auto;
+}
+
+.body article {
+  padding-right: 20px;
+}
+
+.footer {
+  background-color: gray;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
